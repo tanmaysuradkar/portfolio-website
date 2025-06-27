@@ -28,14 +28,14 @@ const Footer = () => {
             <div>
               <h4 className="text-[#1e1e1e] font-semibold mb-4">github id</h4>
               <ul className="space-y-2">
-                <li><Link href="#" className="text-[#757575] hover:text-[#1e1e1e] text-sm">tanmaysuradkar</Link></li>
+                <li><Link href="#" className="text-[#757575] hover:text-[#1e1e1e] text-sm">andreoxyz</Link></li>
               </ul>
             </div>
 
             <div>
               <h4 className="text-[#1e1e1e] font-semibold mb-4">Instagram id</h4>
               <ul className="space-y-2">
-                <li><Link href="#" className="text-[#757575] hover:text-[#1e1e1e] text-sm">tanmay_suradkar.26</Link></li>
+                <li><Link href="#" className="text-[#757575] hover:text-[#1e1e1e] text-sm">andreo.xyz</Link></li>
               </ul>
             </div>
           </div>
