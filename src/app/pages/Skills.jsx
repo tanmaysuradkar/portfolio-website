@@ -21,7 +21,7 @@ const Skills = () => {
                   NextJs
                 </h1>
                 <Image
-                  src="/icon/NextJs.png"
+                  src="icon/NextJs.png"
                   alt="NextJs"
                   width={144}
                   height={30}
@@ -32,7 +32,7 @@ const Skills = () => {
                   NodeJs
                 </h1>
                 <Image
-                  src="/icon/NodeJs.png"
+                  src="icon/NodeJs.png"
                   alt="NodeJs"
                   width={144}
                   height={30}
@@ -43,7 +43,7 @@ const Skills = () => {
                   Express
                 </h1>
                 <Image
-                  src="/icon/express.png"
+                  src="icon/express.png"
                   alt="express"
                   width={144}
                   height={30}
@@ -54,7 +54,7 @@ const Skills = () => {
                   FastApi
                 </h1>
                 <Image
-                  src="/icon/FastAPI.png"
+                  src="icon/FastAPI.png"
                   alt="FastApi"
                   width={144}
                   height={30}
@@ -66,7 +66,7 @@ const Skills = () => {
                   Postman
                 </h1>
                 <Image
-                  src="/icon/Postman.png"
+                  src="icon/Postman.png"
                   alt="Postman"
                   width={144}
                   height={30}
@@ -85,7 +85,7 @@ const Skills = () => {
                 </h1>
 
                 <Image
-                  src="/icon/Kubernetes.png"
+                  src="icon/Kubernetes.png"
                   alt="Kubernetes"
                   width={144}
                   height={30}
@@ -97,7 +97,7 @@ const Skills = () => {
                 </h1>
 
                 <Image
-                  src="/icon/Docker.png"
+                  src="icon/Docker.png"
                   alt="Docker"
                   width={144}
                   height={30}
@@ -109,7 +109,7 @@ const Skills = () => {
                 </h1>
 
                 <Image
-                  src="/icon/Redis.png"
+                  src="icon/Redis.png"
                   alt="Redis"
                   width={144}
                   height={30}
@@ -128,7 +128,7 @@ const Skills = () => {
                 </h1>
 
                 <Image
-                  src="/icon/MySQL.png"
+                  src="icon/MySQL.png"
                   alt="MySQL"
                   width={144}
                   height={30}
@@ -140,7 +140,7 @@ const Skills = () => {
                 </h1>
 
                 <Image
-                  src="/icon/MongoDB.png"
+                  src="icon/MongoDB.png"
                   alt="MongoDB"
                   width={144}
                   height={30}
@@ -158,7 +158,7 @@ const Skills = () => {
                 </h1>
 
                 <Image
-                  src="/icon/TailwindCss.png"
+                  src="icon/TailwindCss.png"
                   alt="TailwindCss"
                   width={190}
                   height={90}
@@ -170,7 +170,7 @@ const Skills = () => {
                 </h1>
 
                 <Image
-                  src="/icon/ReactJs.png"
+                  src="icon/ReactJs.png"
                   alt="ReactJs"
                   width={144}
                   height={30}
@@ -182,7 +182,7 @@ const Skills = () => {
                 </h1>
 
                 <Image
-                  src="/icon/TypeScript.png"
+                  src="icon/TypeScript.png"
                   alt="TypeScript"
                   width={144}
                   height={30}
@@ -194,7 +194,7 @@ const Skills = () => {
                 </h1>
 
                 <Image
-                  src="/icon/JavaScript.png"
+                  src="icon/JavaScript.png"
                   alt="JavaScript"
                   width={144}
                   height={30}
@@ -206,7 +206,7 @@ const Skills = () => {
                 </h1>
 
                 <Image
-                  src="/icon/Java.png"
+                  src="icon/Java.png"
                   alt="Java"
                   width={144}
                   height={30}
@@ -218,7 +218,7 @@ const Skills = () => {
                 </h1>
 
                 <Image
-                  src="/icon/gsap-min.webp"
+                  src="icon/gsap-min.webp"
                   alt="gsap-min"
                   width={144}
                   height={30}
@@ -230,7 +230,7 @@ const Skills = () => {
                 </h1>
 
                 <Image
-                  src="/icon/Github.png"
+                  src="icon/Github.png"
                   alt="Github"
                   width={144}
                   height={30}
@@ -242,7 +242,7 @@ const Skills = () => {
                 </h1>
 
                 <Image
-                  src="/icon/ReduxJs.png"
+                  src="icon/ReduxJs.png"
                   alt="Redux"
                   width={144}
                   height={30}
@@ -254,7 +254,7 @@ const Skills = () => {
                 </h1>
 
                 <Image
-                  src="/icon/FramerMotion.png"
+                  src="icon/FramerMotion.png"
                   alt="FramerMotion"
                   width={144}
                   height={30}
@@ -266,7 +266,7 @@ const Skills = () => {
                 </h1>
 
                 <Image
-                  src="/icon/ReactNative.png"
+                  src="icon/ReactNative.png"
                   alt="ReactNative"
                   width={144}
                   height={30}
@@ -278,7 +278,7 @@ const Skills = () => {
                 </h1>
 
                 <Image
-                  src="/icon/AndroidStudio.png"
+                  src="icon/AndroidStudio.png"
                   alt="AndroidStudio"
                   width={144}
                   height={30}
@@ -290,7 +290,7 @@ const Skills = () => {
                 </h1>
 
                 <Image
-                  src="/icon/Expo.png"
+                  src="icon/Expo.png"
                   alt="Expo"
                   width={144}
                   height={30}
