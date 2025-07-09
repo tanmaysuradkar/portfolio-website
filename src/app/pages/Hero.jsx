@@ -1,8 +1,8 @@
 import React from "react";
 
-const Hero = () => {
+const Hero = (props) => {
   return (
-    <div className=" h-[83vh] w-full flex justify-start items-center text-center">
+    <div  className=" h-[83vh] w-full flex justify-start items-center text-center">
       <div className="h-full w-1/3 flex text-start flex-col justify-center items-center">
         <div className="w-[85%]">
           <h1 className="text-4xl text-black uppercase font-bold">
@@ -34,7 +34,7 @@ const Hero = () => {
           <div className="h-full uppercase w-[74%] flex justify-center items-center text-cente flex-col  border-l-2 border-black ">
             <h1 className="text-3xl mb-4 text-black font-medium">to</h1>
             <h1 className="text-3xl mb-4 text-black font-medium">connet me</h1>
-            <button className="group relative z-10 w-fit">
+            <button onMouseEnter={()=>{props.sethover(true)}} onMouseLeave={()=>{props.sethover(false)}}  className="group relative z-10 w-fit">
               <span className="relative inline-flex overflow-hidden font-general text-xs uppercase">
                 <div className="text-2xl mb-3 capitalize cursor-pointer py-0.5 px-5 border-2 border-black rounded-4xl text-black font-medium translate-y-0 skew-y-0 transition duration-500 group-hover:translate-y-[-160%] group-hover:skew-y-12">
                   Say hi
@@ -54,7 +54,7 @@ const Hero = () => {
               </span>{" "}
               and
             </div>
-            <button className="group relative z-10 w-fit">
+            <button onMouseEnter={()=>{props.sethover(true)}} onMouseLeave={()=>{props.sethover(false)}}  className="group relative z-10 w-fit">
               <span className="relative inline-flex overflow-hidden font-general text-xs uppercase">
                 <div className="text-2xl mb-3 capitalize cursor-pointer py-0 px-5 border-2 border-black rounded-4xl text-black font-medium translate-y-0 skew-y-0 transition duration-500 group-hover:translate-y-[-160%] group-hover:skew-y-12">
                   follow me
