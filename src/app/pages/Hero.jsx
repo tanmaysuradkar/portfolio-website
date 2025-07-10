@@ -9,7 +9,7 @@ const Hero = (props) => {
             ! Hi there
           </h1>
           <h3 className="text-3xl text-black uppercase font-medium">
-            I'm andreo suradkar
+            I'm tanmay rahul suradkar
           </h3>
           <h3 className="text-3xl text-black uppercase font-medium">
             a software developer
