@@ -1,5 +1,5 @@
 import "./globals.css";
-
+import Stairs from './common/Stairs'
 
 export const metadata = {
   title: "Create Next App",
@@ -12,7 +12,9 @@ export default function RootLayout({ children }) {
       <body
         className={`antialiased`}
       >
+        <Stairs>
         {children}
+        </Stairs>
       </body>
     </html>
   );

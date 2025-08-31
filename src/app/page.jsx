@@ -17,12 +17,12 @@ import { useEffect, useRef, useState } from "react";
 export default function Home() {
   const [hover, sethover] = useState(false);
   const Scroll = useScroll;
-  const size = hover ? 100 : 40;
+  const size = hover ? 100 : 30;
   const x = cursor().x;
   const y = cursor().y;
   const containerRef = useRef(null)
   return (
-    <div id="main" data-scroll-container ref={containerRef} className="relative overflow-hidden bg-[#ffffff]">
+    <div id="main" data-scroll-container ref={containerRef} className="relative min-h-[200vh] w-full bg-[#ffffff]">
       <motion.div
         transition={{
           type: "tween",
@@ -31,10 +31,12 @@ export default function Home() {
         animate={{
           x: `${x}px`,
           y: `${y}px`,
+          // translateY:'-8px',
+          // translateX:'8px',
           width: `${size}px`,
           height: `${size}px`,
         }}
-        className="h-10 w-10 z-190 rounded-full absolute border-2 border-black"
+        className="h-5 w-5 z-190 mix-blend-difference bg-white rounded-full absolute border-2 border-white"
       ></motion.div>
       {/* Header Navigation */}
       <Navigation sethover={sethover} />
@@ -48,9 +50,12 @@ export default function Home() {
       {/* About */}
       <About />
       {/*Large Text*/}
+
       <LargeText sethover={sethover}/>
       {/* Footer */}
-      <Footer />
+      <div className="w-full sticky bottom-0 left-0 z-0 shadow-md">
+      <Footer sethover={sethover}/>
+      </div>
     </div>
 
   );

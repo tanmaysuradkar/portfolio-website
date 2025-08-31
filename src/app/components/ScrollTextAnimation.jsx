@@ -22,11 +22,11 @@ const ScrollTextAnimation = (props) => {
     <div
       
       ref={ref}
-      className="h-20 w-[350%] flex justify-start items-center border-b-2 border-t-2 overflow-x-hidden border-b-black border-t-black"
+      className="h-20 z-20 relative bg-white w-[350%] flex justify-start items-center border-b-2 border-t-2 overflow-x-hidden border-b-black border-t-black"
     >
       <props.motion.div
         animate={{
-          x: `-${scrolls * 15}px`,
+          x: `-${scrolls * 5}px`,
         }}
         transition={{
           type: "tween",
@@ -36,7 +36,7 @@ const ScrollTextAnimation = (props) => {
         {" "}
         <h1 className="text-6xl text-black font-bold">
           tanmay rahul suradkar ! tanmay rahul suradkar ?
-          tanmay rahul suradkar $ tanmay rahul suradkar \ rahul suradkar.
+          tanmay rahul suradkar 
         </h1>
       </props.motion.div>
     </div>

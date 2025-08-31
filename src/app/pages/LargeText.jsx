@@ -2,7 +2,7 @@ import React from "react";
 
 const LargeText = (props) => {
   return (
-    <div className="h-[73.6vh] px-3 border-t-2 border-t-black w-full text-black text-9xl leading-35 font-bold tracking-[-15px]">
+    <div className="h-[90vh] uppercase py-10  z-100 px-3 border-t-2 border-b-2 relative bg-white border-t-black border-b-black w-full text-black text-9xl leading-35 font-bold tracking-[-15px]">
       you can get in touch with me via{" "}
       <samp
         onMouseEnter={() => {

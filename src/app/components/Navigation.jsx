@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Navigation = (props) => {
   return (
-    <header  className="border-b-2 border-[#000] bg-[#ffffff]">
+    <header  className="border-b-2 z-40 relative border-[#000] bg-[#ffffff]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-8.5">
           <div className="flex items-center">

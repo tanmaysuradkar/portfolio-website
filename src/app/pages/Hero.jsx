@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = (props) => {
   return (
-    <div  className=" h-[83vh] w-full flex justify-start items-center text-center">
+    <div  className=" h-[83vh] w-full z-20 relative bg-white flex justify-start items-center text-center">
       <div className="h-full w-1/3 flex text-start flex-col justify-center items-center">
         <div className="w-[85%]">
           <h1 className="text-4xl text-black uppercase font-bold">
@@ -45,7 +45,8 @@ const Hero = (props) => {
               </span>
             </button>
             <div className="text-3xl mb-4 text-black font-medium">
-              <span className="font-medium relative font-general text-xm text-black uppercase after:absolute after:-bottom-[-50%] after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-neutral-800 after:transition-transform after:duration-300 after:ease-[cubic-bezier(0.65_0.05_0.36_1)]  hover:after:origin-bottom-left hover:after:scale-x-100 dark:after:bg-black hover:cursor-pointer cursor-pointer;">
+              <span className="
+              ">
                 INSTGRAM
               </span>{" "}
               else{" "}
