@@ -5,13 +5,13 @@ const Hero = (props) => {
     <div  className=" h-[83vh] w-full z-20 relative bg-white flex justify-start items-center text-center">
       <div className="h-full w-1/3 flex text-start flex-col justify-center items-center">
         <div className="w-[85%]">
-          <h1 className="text-4xl text-black uppercase font-bold">
+          <h1 className="text-6xl text-black uppercase font-bold">
             ! Hi there
           </h1>
-          <h3 className="text-3xl text-black uppercase font-medium">
+          <h3 className="text-4xl text-black uppercase font-medium">
             I'm tanmay rahul suradkar
           </h3>
-          <h3 className="text-3xl text-black uppercase font-medium">
+          <h3 className="text-4xl text-black uppercase font-medium">
             a software developer
           </h3>
         </div>
