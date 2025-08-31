@@ -8,7 +8,7 @@ const Navigation = (props) => {
         <div className="flex items-center justify-between h-8.5">
           <div className="flex items-center">
             <div className="w-6 h-6 bg-[#1e1e1e] rounded flex items-center justify-center">
-              <span className="text-[#ffffff] text-sm font-bold">F</span>
+              <span className="text-[#ffffff] text-sm font-bold">T</span>
             </div>
           </div>
           <nav className="hidden md:flex justify-center text-center items-center space-x-25">
