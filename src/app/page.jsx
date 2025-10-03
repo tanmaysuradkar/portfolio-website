@@ -17,32 +17,36 @@ import { useEffect, useRef, useState } from "react";
 export default function Home() {
   const [hover, sethover] = useState(false);
   const Scroll = useScroll;
-  const size = hover ? 100 : 30;
+  const size = hover ? 100 : 10;
   const x = cursor().x;
   const y = cursor().y;
   const containerRef = useRef(null)
   return (
-    <div id="main" data-scroll-container ref={containerRef} className="relative min-h-[200vh] w-full bg-[#ffffff]">
+    <div id="main" data-scroll-container ref={containerRef} className="relative min-h-[200vh]  max-w-[100vw] bg-[#ffffff]">
       <motion.div
         transition={{
           type: "tween",
-          ease: "backOut",
+          ease: "linear",
+          
         }}
         animate={{
-          x: `${x}px`,
-          y: `${y}px`,
-          // translateY:'-8px',
-          // translateX:'8px',
+          x: `${40 +x}px`,
+          y: `${40 +y}px`,
+          translateY:'-30px',
+          translateX:'-30px',
           width: `${size}px`,
           height: `${size}px`,
         }}
-        className="h-5 w-5 z-190 mix-blend-difference bg-white rounded-full absolute border-2 border-white"
+        className="h-5 w-5 z-190 lg:flex hidden  mix-blend-difference bg-white rounded-full absolute border-2 border-white"
       ></motion.div>
       {/* Header Navigation */}
       <Navigation sethover={sethover} />
       {/* Hero Section */}
       <Hero sethover={sethover} />
+      <div className="md-60 w-[100vw] overflow-hidden">
+
       <ScrollTextAnimation Scroll={Scroll} motion={motion}/>
+      </div>
       {/* Skill */}
       <Skills />
       {/* Project */}

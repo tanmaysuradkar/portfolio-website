@@ -57,25 +57,19 @@ const Footer = (props) => {
           <div className="flex  flex-wrap gap-4 justify-center">
             <a
             onMouseEnter={()=>{props.sethover(true)}} onMouseLeave={()=>{props.sethover(false)}}
-              href="#"
+              href="https://github.com/tanmaysuradkar"
               className="px-8 py-4 border-2 border-gray-300 rounded-full text-black font-medium hover:bg-black hover:text-white hover:border-black transition-all duration-300"
             >
               GITHUB
             </a>
             <a
             onMouseEnter={()=>{props.sethover(true)}} onMouseLeave={()=>{props.sethover(false)}}
-              href="#"
+              href="https://www.linkedin.com/in/tanmaysuradkar/"
               className="px-8 py-4 border-2 border-gray-300 rounded-full text-black font-medium hover:bg-black hover:text-white hover:border-black transition-all duration-300"
             >
               LINKEDIN
             </a>
-            <a
-              href="#"
-              onMouseEnter={()=>{props.sethover(true)}} onMouseLeave={()=>{props.sethover(false)}}
-              className="px-8 py-4 border-2 border-gray-300 rounded-full text-black font-medium hover:bg-black hover:text-white hover:border-black transition-all duration-300"
-            >
-              TWITTER
-            </a>
+            
           </div>
           {/* <!-- Credits --> */}
           <div className="text-center text-sm text-black ">

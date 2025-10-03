@@ -2,7 +2,7 @@ import React from "react";
 
 const LargeText = (props) => {
   return (
-    <div className="h-[90vh] uppercase py-10  z-100 px-3 border-t-2 border-b-2 relative bg-white border-t-black border-b-black w-full text-black text-9xl leading-35 font-bold tracking-[-15px]">
+    <div className="h-[90vh]   uppercase py-10  z-100 px-3 border-t-2 border-b-2 relative bg-white border-t-black border-b-black min-w-full text-black text-8xl sm:text-9xl lg:leading-35 leading-20 font-bold tracking-[-5px] sm:tracking-[-15px]">
       you can get in touch with me via{" "}
       <samp
         onMouseEnter={() => {
@@ -15,7 +15,7 @@ const LargeText = (props) => {
       >
         mail
       </samp>{" "}
-      or{" "}
+      or {" "}
       <samp
         onMouseEnter={() => {
           props.sethover(true);
@@ -27,7 +27,7 @@ const LargeText = (props) => {
       >
         instagram
       </samp>{" "}
-      or
+      or{" "}
   <samp
         onMouseEnter={() => {
           props.sethover(true);
@@ -36,9 +36,7 @@ const LargeText = (props) => {
           props.sethover(false);
         }}
         className=" relative after:absolute after:-bottom-[-40%] after:left-0 after:h-[4px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-neutral-800 after:transition-transform after:duration-300 after:ease-[cubic-bezier(0.65_0.05_0.36_1)]  hover:after:origin-bottom-left hover:after:scale-x-100 dark:after:bg-black cursor-pointer pl-10 text-white tracking-[-10px] [transform:scaleY(1.9)] [text-shadow:_1.5px_1.5px_0_black,_-1.5px_1.5px_0_black,_-1.5px_-1.5px_0_black,_1.5px_-1.5px_0_black]"
-      >
-        linkedIn.
-      </samp>
+      >linkedIn</samp>
       
     </div>
   );
