@@ -34,7 +34,7 @@ const ScrollTextAnimation = (props) => {
       >
         {" "}
         <h1 className="text-5xl w-[200%] flex items-center my-0.5  -ml-20 text-white font-bold">
-          tanmay rahul suradkar <samp ><div className="h-12.5 rounded-full mx-2.5 w-25 overflow-hidden bg-black"><Image src="/icon/text1.jpg" className=" object-cover" alt="TailwindCss" width={144} height={30} /></div></samp> software developer  <samp ><div className="h-12.5 rounded-full mx-2.5 w-25 overflow-hidden bg-black"><Image src="/icon/text5.jpg" className=" object-cover" alt="TailwindCss" width={144} height={30} /></div></samp>
+          tanmay rahul suradkar <samp ><div className="h-12.5 rounded-full mx-2.5 w-25 overflow-hidden bg-black"><Image src="icon/text1.jpg" className=" object-cover" alt="TailwindCss" width={144} height={30} /></div></samp> software developer  <samp ><div className="h-12.5 rounded-full mx-2.5 w-25 overflow-hidden bg-black"><Image src="icon/text5.jpg" className=" object-cover" alt="TailwindCss" width={144} height={30} /></div></samp>
           tanmay rahul suradkar
         </h1>
       </props.motion.div>
@@ -51,7 +51,7 @@ const ScrollTextAnimation = (props) => {
       >
         {" "}
        <h1 className="text-5xl w-[200%] flex items-center -ml-70 my-0.5 text-white font-bold">
-          tanmay rahul suradkar <samp ><div className="h-12.5 rounded-full mx-2.5 w-25 overflow-hidden bg-black"><Image src="/icon/text2.jpg" className=" object-cover" alt="TailwindCss" width={144} height={30} /></div></samp> tanmay rahul suradkar  <samp ><div className="h-12.5 rounded-full mx-2.5 w-25 overflow-hidden bg-black"><Image src="/icon/text4.jpg" className=" object-cover" alt="TailwindCss" width={144} height={30} /></div></samp>
+          tanmay rahul suradkar <samp ><div className="h-12.5 rounded-full mx-2.5 w-25 overflow-hidden bg-black"><Image src="icon/text2.jpg" className=" object-cover" alt="TailwindCss" width={144} height={30} /></div></samp> tanmay rahul suradkar  <samp ><div className="h-12.5 rounded-full mx-2.5 w-25 overflow-hidden bg-black"><Image src="icon/text4.jpg" className=" object-cover" alt="TailwindCss" width={144} height={30} /></div></samp>
           software developer
         </h1>
       </props.motion.div>
@@ -68,7 +68,7 @@ const ScrollTextAnimation = (props) => {
       >
         {" "}
         <h1 className="text-5xl w-[200%] flex items-center my-0.5 ml-0 lg:ml-50 text-white font-bold">
-          software developer <samp ><div className="h-12.5 rounded-full lg:mx-2.5 w-25 overflow-hidden bg-black"><Image src="/icon/text6.jpg" className=" object-cover" alt="TailwindCss" width={144} height={30} /></div></samp> tanmay rahul suradkar  <samp ><div className="h-12.5 rounded-full mx-2.5 w-25 overflow-hidden bg-black"><Image src="/icon/text3.jpg" className=" object-cover" alt="TailwindCss" width={144} height={30} /></div></samp>
+          software developer <samp ><div className="h-12.5 rounded-full lg:mx-2.5 w-25 overflow-hidden bg-black"><Image src="icon/text6.jpg" className=" object-cover" alt="TailwindCss" width={144} height={30} /></div></samp> tanmay rahul suradkar  <samp ><div className="h-12.5 rounded-full mx-2.5 w-25 overflow-hidden bg-black"><Image src="icon/text3.jpg" className=" object-cover" alt="TailwindCss" width={144} height={30} /></div></samp>
           tanmay rahul suradkar
         </h1>
       </props.motion.div>
@@ -85,7 +85,7 @@ const ScrollTextAnimation = (props) => {
       >
         {" "}
         <h1 className="text-5xl w-[200%] flex items-center my-0.5  -ml-70 lg:-ml-50 text-white font-bold">
-          tanmay rahul suradkar <samp ><div className="h-12.5 rounded-full lg:mx-2.5 w-25 overflow-hidden bg-black"><Image src="/icon/text4.jpg" className=" object-cover" alt="TailwindCss" width={144} height={30} /></div></samp> software developer  <samp ><div className="h-12.5 rounded-full mx-2.5 w-25 overflow-hidden bg-black"><Image src="/icon/text1.jpg" className=" object-cover" alt="TailwindCss" width={144} height={30} /></div></samp>
+          tanmay rahul suradkar <samp ><div className="h-12.5 rounded-full lg:mx-2.5 w-25 overflow-hidden bg-black"><Image src="icon/text4.jpg" className=" object-cover" alt="TailwindCss" width={144} height={30} /></div></samp> software developer  <samp ><div className="h-12.5 rounded-full mx-2.5 w-25 overflow-hidden bg-black"><Image src="icon/text1.jpg" className=" object-cover" alt="TailwindCss" width={144} height={30} /></div></samp>
           tanmay rahul suradkar
         </h1>
       </props.motion.div>
