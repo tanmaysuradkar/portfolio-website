@@ -1,4 +1,5 @@
 "use client";
+import "./globals.css";
 import Image from "next/image";
 import Link from "next/link";
 import Navigation from "./components/Navigation";
@@ -22,7 +23,7 @@ export default function Home() {
   const y = cursor().y;
   const containerRef = useRef(null)
   return (
-    <div id="main" data-scroll-container ref={containerRef} className="relative min-h-[200vh]  max-w-[100vw] bg-[#ffffff]">
+    <div id="main" data-scroll-container ref={containerRef} className="relative min-h-[200vh]  max-w-[100vw] bg-black">
       <motion.div
         transition={{
           type: "tween",
@@ -39,23 +40,26 @@ export default function Home() {
         }}
         className="h-5 w-5 z-190 lg:flex hidden  mix-blend-difference bg-white rounded-full absolute border-2 border-white"
       ></motion.div>
-      {/* Header Navigation */}
-      <Navigation sethover={sethover} />
+      <div className="relative z-1 bg-black w-full">
+  <div className="bg-black relative w-1/2 mx-auto overflow-hidden text-white">
+      
+      {/* Header Navigation
+      <Navigation sethover={sethover} /> */}
       {/* Hero Section */}
       <Hero sethover={sethover} />
-      <div className="md-60 w-[100vw] overflow-hidden">
 
       <ScrollTextAnimation Scroll={Scroll} motion={motion}/>
-      </div>
       {/* Skill */}
       <Skills />
       {/* Project */}
       <Projects sethover={sethover}/>
-      {/* About */}
-      <About />
+      {/* About
+      <About /> */}
       {/*Large Text*/}
 
       <LargeText sethover={sethover}/>
+      </div>
+      </div>
       {/* Footer */}
       <div className="w-full sticky bottom-0 left-0 z-0 shadow-md">
       <Footer sethover={sethover}/>
